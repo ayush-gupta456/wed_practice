@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+
+    background-color: rgb(243, 229, 212);
+    z-index: -1;
+}
+
+.navbar {
+    height: 8vh;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 2.5rem;
+}
+
+.navbar .right-side {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.navbar .right-side .icon {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none
+}
+
+.navbar .nav-button {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 1.5rem;
+    transition: all ease 1s;
+}
+
+.navbar .nav-button li:hover {
+    color: rgb(163, 6, 6);
+    transform: scale(1.1);
+}
+
+main {
+    height: 85vh;
+    background: url();
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background: url("https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg");
+}
+
+main .main-text {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+main .main-button {
+    display: flex;
+    gap: 40px;
+}
+
+.btn {
+    outline: none;
+    padding: 18px 60px;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: aquamarine;
+}
+
+.btn-primary:hover {
+    background-color: white;
+}
+
+.btn-secondary:hover {
+    background-color: aquamarine;
+}
+
+.second-section {
+    height: 80vh;
+
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Ss-text,
+.Ff-text {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Ss-text h1 {
+    font-size: 3rem;
+}
+
+span {
+    width: 20%;
+    border: 2px solid red;
+}
+
+.Ss-text p {
+    font-size: 1.5rem;
+}
+
+.Ss-text button {
+    width: 55%;
+}
+
+.third-section {
+    margin-top: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 2rem;
+    position: relative;
+    background: url("https://media.istockphoto.com/id/637867656/photo/silhouette-row-of-businessmen-sitting-in-meeting-room.jpg?s=612x612&w=0&k=20&c=jEzOt9Vdij26XVv8jxkC_CA2RyAUmKriAVce46TS74E=");
+}
+
+.fourth-section {
+    margin-top: 60px;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fourth-section .head {
+    display: flex;
+    width: 60%;
+    font-size: 1.5rem;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    width: 80%;
+    margin: 0px auto;
+    ;
+    margin-top: 0px;
+    gap: 40px;
+}
+
+.cards .card img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.cards .card {
+
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    font-size: 18px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fifth-section {
+    height: 80vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+form input {
+    height: 5vh;
+}
+
+.ff-image {
+    height: 80%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.ff-image img {
+    height: 50%;
+    object-fit: cover;
+}
+
+footer {
+    height: 20vh;
+    background-color: aquamarine;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
